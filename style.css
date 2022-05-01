@@ -134,6 +134,15 @@ a {
     border: solid 2px white;
 }
 
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: #E5E7EB;
+}
+
 h1 {
     font-size: 24px;
     color: #F9FAF8;

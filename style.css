@@ -5,6 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -68,6 +69,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 64px;
+    margin-bottom: 100px;
 }
 
 .info-image div {
@@ -87,6 +89,27 @@ a {
     color: #1F2937;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 200px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    gap: 8px;
+}
+
+.right {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+}
+
 h1 {
     font-size: 24px;
     color: #F9FAF8;
@@ -104,6 +127,7 @@ h3 {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+    margin: 46px;
 }
 
 .cta-top p, a {

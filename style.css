@@ -15,12 +15,14 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 200px;
+    flex-wrap: wrap;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 32px;
+    padding: 0;
 }
 
 .cta-top {
@@ -58,6 +60,7 @@ button {
     border-radius: 8px;
     font-weight: bolder;
     cursor: pointer;
+    flex-shrink: 0;
 }
 
 a {
@@ -68,23 +71,25 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 64px;
+    gap: 50px;
     margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .info-image div {
     background-color: white;
     border: solid 3px #3882F6;
     border-radius: 15px;
-    height: 180px;
+    height: 160px;
+    flex-shrink: 0;
 }
 
 .info-image {
     display: flex;
     flex-direction: column;
-    width: 180px;
+    width: 160px;
     text-align: center;
-    gap: 16px;
+    gap: 12px;
     font-size: 18px;
     color: #1F2937;
 }
@@ -100,7 +105,7 @@ a {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
-    gap: 8px;
+    gap: 16px;
 }
 
 .right {
@@ -119,6 +124,7 @@ a {
     align-items: center;
     justify-content: space-between;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .cta-bottom .text {
@@ -146,6 +152,7 @@ a {
 h1 {
     font-size: 24px;
     color: #F9FAF8;
+    flex-shrink: 0;
 }
 
 h2 {

@@ -59,6 +59,10 @@ button {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+}
+
 .info {
     display: flex;
     justify-content: center;
@@ -102,7 +106,7 @@ h3 {
     color: #1F2937;
 }
 
-.cta-top p, li {
+.cta-top p, a {
     font-size: 18px;
     color: #E5E7EB;
 }

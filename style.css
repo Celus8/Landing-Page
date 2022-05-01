@@ -29,7 +29,7 @@ ul {
     padding: 100px 200px;
     align-items: stretch;
     justify-content: center;
-    
+    gap: 64px;
 }
 
 .cta-top .text {
@@ -38,12 +38,25 @@ ul {
     align-items: flex-start;
     justify-content: space-between;
     flex: 1;
+    gap: 8px;
 }
 
-.cta-top img {
-    height: 250px;
+.placeholder {
+    min-height: 230px;
     flex: 1;
     background-color: rgb(110, 110, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    all: unset;
+    background-color: #3882F6;
+    padding: 8px 32px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 h1 {
@@ -55,9 +68,14 @@ h2 {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .cta-top p, li {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+p {
+    margin: 0;
 }

@@ -59,6 +59,30 @@ button {
     cursor: pointer;
 }
 
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.info-image div {
+    background-color: white;
+    border: solid 3px #3882F6;
+    border-radius: 15px;
+    height: 180px;
+}
+
+.info-image {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    text-align: center;
+    gap: 16px;
+    font-size: 18px;
+    color: #1F2937;
+}
+
 h1 {
     font-size: 24px;
     color: #F9FAF8;
@@ -69,6 +93,13 @@ h2 {
     font-weight: bold;
     color: #F9FAF8;
     margin: 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 .cta-top p, li {
